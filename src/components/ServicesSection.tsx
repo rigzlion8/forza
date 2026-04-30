@@ -1,6 +1,7 @@
 import cctvImg from "@/assets/cctv-service.jpg";
 import homeAutoImg from "@/assets/home-automation.jpg";
 import doorbellImg from "@/assets/doorbell-camera.jpg";
+import heroImage from "@/assets/hero-security.jpg";
 import { Shield, Camera, Home, Bell, Users, Zap } from "lucide-react";
 
 const services = [
@@ -10,7 +11,7 @@ const services = [
     description:
       "Highly trained, vetted guards for residential, commercial, and event security. 24/7 patrol and rapid response teams across Nairobi and beyond.",
     features: ["Armed & unarmed guards", "24/7 patrol teams", "Event security", "VIP protection"],
-    image: null,
+    image: heroImage,
   },
   {
     icon: Camera,
